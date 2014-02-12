@@ -6,6 +6,7 @@
     <groupId>ca.mda</groupId>
     <version>0.1-SNAPSHOT</version>
   </parent>
+  
   <artifactId>pkb-core</artifactId>
   <name>Personal Kanban Core Module</name>
   <properties>
