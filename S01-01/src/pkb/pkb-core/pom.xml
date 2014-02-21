@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>pkb</artifactId>
     <groupId>ca.mda</groupId>
     <version>0.1-SNAPSHOT</version>
   </parent>
-  
+
   <artifactId>pkb-core</artifactId>
   <name>Personal Kanban Core Module</name>
   <properties>
@@ -46,7 +47,12 @@
       <groupId>org.mockito</groupId>
       <artifactId>mockito-all</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
   </dependencies>
+
   <build>
     <plugins>
       <plugin>
@@ -68,11 +74,11 @@
         </dependencies>
       </plugin>
       <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-surefire-plugin</artifactId>
-         <configuration>
-            <reportsDirectory>../../../build/pkb/pkb-core</reportsDirectory>
-         </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <reportsDirectory>../../../build/pkb/pkb-core</reportsDirectory>
+        </configuration>
       </plugin>
     </plugins>
   </build>
