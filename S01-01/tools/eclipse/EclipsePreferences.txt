@@ -3,24 +3,22 @@
   3. Java/Code Style/Clean Up->Cleanup.xml
   4. Java/Code Style/Code Templates->Import CodeTemplates.xml
   5. Java/Code Style/Formatter->Import Formatter.xml
-  6. Java/Editor/Save Actions->Format source code/format edited lines
-  7. Java/Editor/Save Actions->Organize Imports-Uncheck
-  8. Maven/Annotation Processing->Experimental: Delegate Annotation Processing to maven plugins (for maven-processor-plugin only)
-  9. Maven/Installations/Global  settings -> Import settings.xml from tools/eclipse
-  10. Validation->Disable All
-  11. Java/Editor/Content Assist
+  6. Java/Compiler/Building - No strictly compatible JRE for execution environment available = Ignore
+  7. Java/Editor/Save Actions->Format source code/format edited lines
+  8. Java/Editor/Save Actions->Organize Imports-Uncheck
+  9. Java/Editor/Content Assist
     a. Add import instead of qualified name and Use Static imports
-  12. Java/Editor/Content Assist/Favourites
+  10. Java/Editor/Content Assist/Favourites
     a. Add new Type
       i. com.google.common.base.Preconditions
       ii. org.fest.assertions.api.Assertions
       iii. org.junit.assert
       iv. org.mockito.Mockito
       v. org.springframework.hateoas.mvc.ControllerLinkBuilder
-  13. Java Editor Templates -> Import EditorTemplates.xml
+  11. Java Editor Templates -> Import EditorTemplates.xml
+  12. Maven/Annotation Processing->Experimental: Delegate Annotation Processing to maven plugins (for maven-processor-plugin only)
+  13. Maven/Installations/Global  settings -> Import settings.xml from tools/eclipse
   14. Run/Debug/Launching-> Always launch the previously launched application
-  15. XML/XML Files/Editor->Indent using spaces (2)
-  16. Add .settings, target to your subversion config as global ignores
-  17. When creating a Tomcat Server, set Server Locations to "Use custom location", and set the server path to trunk/build/tomcat (do before adding modules)
-  18. Java/Compiler/Building - No strictly compatible JRE for execution environment available = Ignore
+  15. Validation->Disable All
+  16. XML/XML Files/Editor->Indent using spaces (2)
 
